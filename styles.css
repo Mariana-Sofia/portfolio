@@ -14,10 +14,10 @@ body {
 #background {
   background: url(https://images.pexels.com/photos/691668/pexels-photo-691668.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
   /* photo by eberhard grossgasteiger on Pexels*/
-  background-size: 100%;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 900px;
+  height: 56em;
   position: relative;
 }
 
@@ -54,22 +54,21 @@ body {
 }
 
 #header ul li {
-  margin-letf: 20px;
+  margin-left: 1.25em;
   font-weight: 700;
 }
 
 #header ul li a {
   text-decoration: none;
-  padding: 6px 15px;
+  padding: 0.5em 0.94em;
   color: #4e4e4e;
 }
 
-#header ul li a:hover,
-#header ul li a.active {
+#header ul li a:hover {
   background: #12bde7;
   color: #fff;
   transition: ease-in-out 0.15s;
-  border-radius: 20px;
+  border-radius: 1.25em;
 }
 
 #welcome {
@@ -151,7 +150,7 @@ body {
   }
 }
 
-#aboutme::before {
+#sec2::before {
   content: "";
   position: absolute;
   bottom: 0;
@@ -159,8 +158,71 @@ body {
   height: 70px;
   background: linear-gradient(180deg, transparent, #a0a7ad 50%, #fff);
 }
+.col-md-6 {
+  width: 50%;
+}
 
 .about {
-  padding-top: 50px;
+  width: 80%;
   background: #fff;
+  margin: auto;
+  margin-top: 15em;
+}
+
+#aboutme h1 {
+  color: red;
+}
+
+#aboutme p {
+  font-size: 1.3em;
+  font-weight: 200;
+  font-family: "Fira Sans";
+  width: 75%;
+}
+
+img {
+  border-radius: 1em;
+  max-width: 80%;
+  height: auto;
+  display: block;
+  float: right;
+}
+
+.container {
+  justify-content: center;
+  display: flex;
+}
+
+.button {
+  background: #12bde7;
+  color: #fff;
+  font-size: 1.2em;
+  border: 0.3em solid #12bde7;
+  border-radius: 2em;
+  padding: 0.2em 0.6em;
+  margin-top: 1.5em;
+  margin-bottom: 2em;
+}
+
+.button:hover {
+  background: #0f96b8;
+  color: #fff;
+  font-size: 1.2em;
+  border: 0.3em solid #0f96b8;
+  border-radius: 2em;
+  padding: 0.2em 1em;
+  transition: ease-in-out 0.25s;
+  box-shadow: 1px 2px 5px #000;
+}
+
+.bottom {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #000;
 }
