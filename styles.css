@@ -86,8 +86,8 @@ body {
   font-size: 3vw;
   font-weight: 100;
   color: #ffffff;
-  text-shadow: 1px 1px 4px #27373b, -1px -1px 4px #27373b, 0 0 0.5em #0099ff,
-    0 0 0.7em #4eb8ff;
+  text-shadow: 1px 1px 4px rgba(39, 55, 59, 0.377), -1px -1px 4px #27373b,
+    0 0 0.5em #0099ff, 0 0 0.7em #4eb8ff;
   position: absolute;
   text-align: left;
 }
@@ -225,4 +225,5 @@ img {
   justify-content: space-between;
   align-items: center;
   background: #000;
+  margin-top: 50px;
 }
