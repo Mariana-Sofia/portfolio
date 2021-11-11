@@ -155,7 +155,7 @@ body {
 #sec2::before {
   content: "";
   position: absolute;
-  bottom: -8vw;
+  bottom: -8vh;
   width: 100%;
   height: 28em;
   background: linear-gradient(180deg, transparent, #a0a7ad 50%, #fff);
