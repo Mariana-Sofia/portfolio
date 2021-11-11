@@ -107,32 +107,26 @@ body {
   letter-spacing: 0.3em;
 }
 
-#btn {
-  display: inline-block;
-  padding: 8px 30px;
-  align-items: center;
-}
-
 .middle {
   position: absolute;
-  top: 90vh;
+  top: 87vh;
   left: 50%;
-  z-index:1;
+  z-index: 1;
 }
 
 .mouse {
-  width: 25px;
-  height: 45px;
+  width: 1.6em;
+  height: 3em;
   border: 1px solid #4c4c4c;
   border-radius: 60px;
 }
 
 .mouse::before {
   content: "";
-  width: 6px;
-  height: 6px;
+  width: 0.35em;
+  height: 0.35em;
   position: absolute;
-  top: 30px;
+  top: 2em;
   background: #4c4c4c;
   left: 50%;
   transform: translateX(-50%);
@@ -155,27 +149,28 @@ body {
 #sec2::before {
   content: "";
   position: absolute;
-  bottom: -1vw;
+  bottom: -5vw;
   width: 100%;
-  height: 10em;
+  height: 20em;
   background: linear-gradient(180deg, transparent, #a0a7ad 50%, #fff);
 }
 
-.row{
+.row {
   align-items: center;
-}
-
-.col-md-6 {
-  display:flex;
-  align-items:center;
   justify-content: center;
-  flex-wrap: wrap;
 }
 
 .about {
-  background: #fff;
-  margin-top: 5em;
-  padding: 2em;
+  margin-top: 10em;
+  margin-bottom: 2em;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+img {
+  border-radius: 4em 0 4em 0;
+  width: 100%;
+  padding-top: 7px;
 }
 
 h1 {
@@ -183,23 +178,12 @@ h1 {
   font-weight: 700;
   margin-top: 1em !important;
 }
-#aboutme{
-  width: 45%;
-}
 
 #aboutme p {
   font-size: 1.3em;
   font-weight: 200;
   font-family: "Fira Sans";
-  width: 75%;
-}
-
-img {
-  border-radius: 1em;
-  width: 90%;
-  height: auto;
-  display: block;
-  float: right;
+  display: contents;
 }
 
 .container {
