@@ -146,6 +146,10 @@ body {
   }
 }
 
+#sec2 {
+  background: #fff;
+}
+
 #sec2::before {
   content: "";
   position: absolute;
