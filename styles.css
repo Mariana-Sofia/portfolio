@@ -173,7 +173,7 @@ body {
   margin-right: 2em;
 }
 
-img {
+.row img {
   border-radius: 4em 0 4em 0;
   width: 100%;
   padding-top: 7px;
@@ -224,10 +224,25 @@ h1 {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 30px 100px;
+  padding: 2em 3em;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  background: #000;
+  background: #ffffff;
   margin-top: 50px;
+}
+
+.bottom ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom li {
+  padding: 0.5em;
+}
+
+.bottom img {
+  width: 1.5em;
 }
